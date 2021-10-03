@@ -14,14 +14,14 @@ public class Library {
 	
 	public static void add_book() throws IOException{
 		File file=new File("DATA.txt");
-        if(file.createNewFile()){}
-        int Book_ID=0;
-        try  
-        {   
-        FileInputStream fis=new FileInputStream("DATA.txt");       
-        Scanner sc=new Scanner(fis);   
-        String s="0"; 
-        while(sc.hasNextLine())  
+      // if(file.createNewFile()){}
+        //int Book_ID=0;
+//        # try  
+//         {   
+//         FileInputStream fis=new FileInputStream("DATA.txt");       
+//         Scanner sc=new Scanner(fis);   
+//         String s="0"; 
+//         while(sc.hasNextLine())  
         {  
         s=sc.nextLine();  
         }  
